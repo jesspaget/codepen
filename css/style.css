@@ -54,8 +54,8 @@ body {
 
 .info-card {
   height: 70rem;
-  margin: 0 auto;
-  position: absolute;
+  margin: 0;
+  display: block;
   background-color: #fff;
   box-shadow: 0.01rem 0.01rem 1rem #0C1B23;
   position: relative;
@@ -68,23 +68,25 @@ body {
 .info-card__content {
   float: center;
   height: 100%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 
 .info-card__image-exposure {
-  width: 90%;
+  width: 100%;
 }
 
 .info-card__bio {
+  bottom: 55rem;
+  left: 22rem;
+  text-align: center;
   width: 100%;
-  padding: 5rem;
   height: auto;
-  font-family: 'Domine', serif;
+  font-family: 'Geostar', serif;
 }
 
 .info-card__bio--title {
-  color: #141D1D;
+  color: #109B9B;
   font-size: 3.5rem;
   font-weight: 300;
 }
@@ -97,12 +99,12 @@ body {
 .info-card__image-exposure__item {
   background-image: url(../images/eyes.png);
   background-color: #fff;
-  background-position: 80% 50%;
+  background-position: 100% 50%;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%;
-  display: inline-block;
-  position: absolute;
+  width: 83%;
+  display: block;
+  position: relative;
   opacity: 0.9;
 }
 
