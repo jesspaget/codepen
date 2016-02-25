@@ -35,6 +35,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .info-card-container {
   width: 100%;
   min-height: 100%;
@@ -48,12 +53,9 @@ html {
 }
 
 .info-card {
-  min-width: 80%;
-  max-width: 90rem;
-  min-height: 70%;
   height: 70rem;
   margin: 0 auto;
-  position: relative;
+  position: absolute;
   background-color: #fff;
   box-shadow: 0.01rem 0.01rem 1rem #0C1B23;
   position: relative;
@@ -66,7 +68,7 @@ html {
 .info-card__content {
   float: center;
   height: 100%;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
 
@@ -75,7 +77,7 @@ html {
 }
 
 .info-card__bio {
-  width: 40%;
+  width: 100%;
   padding: 5rem;
   height: auto;
   font-family: 'Domine', serif;
